@@ -34,7 +34,7 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 	public void SearchOpportunityByContainsOptionWithValidNameTc_48() throws InterruptedException, FileNotFoundException, IOException {
 		
 		Opportunity opportunity = new Opportunity(dr);
-				/*PageFactory.initElements(dr, Opportunity.class);*/
+				/*PageFactory.initElements(dr, Opportunity.class);*//////
 		Home home = PageFactory.initElements(dr, Home.class);						
 		SoftAssert soft = new SoftAssert();
 		String msg = "Marvel Corp";
