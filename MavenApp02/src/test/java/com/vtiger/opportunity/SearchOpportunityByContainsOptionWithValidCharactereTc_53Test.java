@@ -45,12 +45,12 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*PAGE LOAD WAIT*/
 		/*webDriverCommonUtil1.waitForPageToLoad();*/
 		
-		Opportunity opportunity = new Opportunity(dr);///
+		Opportunity opportunity = new Opportunity(dr);
 				/*PageFactory.initElements(dr, Opportunity.class);*/
 		Home home = PageFactory.initElements(dr, Home.class);						
 		SoftAssert soft = new SoftAssert();
 		String msg = "Marvel Corp";
-		///////////////////////////////////////
+		
 		/*Login into application using url.
 		login to CRM with valid data*/
 				
@@ -94,7 +94,8 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		soft.assertAll();
 		
 		
-		Reporter.log("Search button ==========clicked succesfully..oooo");
+		Reporter.log("Search button clicked succesfully..jjjj");
+		Reporter.log("Search button ======================clicked succesfully..");
 		
 		
 		
